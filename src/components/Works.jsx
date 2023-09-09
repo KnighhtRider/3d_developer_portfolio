@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 import Tilt from "react-parallax-tilt"
+=======
+import Tilt from "react-tilt";
+>>>>>>> 7b1b883701668dc10d785e08316bd3511110e544
 import { motion } from "framer-motion";  
 
 import { styles } from "../styles";
