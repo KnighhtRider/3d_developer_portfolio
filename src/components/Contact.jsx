@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Vivek Thakur",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "vivekthakur7042@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -81,26 +81,23 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
-            <input
-              type='text'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your good name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
+            <span className='text-white font-medium mb-4'>LinkedIn</span>
+    
+            <div
+              onClick={() => window.open("https://www.linkedin.com/in/vivekthakurr/", "_blank")}
+              className='black-gradient flex justify-center items-center cursor-pointer'
+            >
+              Connect with me! 
+            </div>
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
-            <input
-              type='email'
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your web address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
+            <span className='text-white font-medium mb-4'>email</span>
+            <div
+             
+              className='black-gradient flex justify-center items-center'
+            >
+              vivekthakur7042@gmail.com 
+            </div>
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>

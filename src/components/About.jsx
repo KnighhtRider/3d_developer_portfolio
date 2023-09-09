@@ -47,18 +47,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I have completed my Bachelors in Computer Science and I'm skilled with the knowledge 
+        of MERN Stack, Data Structures and Algorithms, C/C++, Java, OOPs Concept, HTML, CSS, 
+        Tailwind CSS, Git and done lots of projects in MERN Stack.
+        I am eager to bring my technical skills, hands-on experience, and dedication to your team.
+        I have  worked on full-stack web applications using the MERN (MongoDB, Express.js, React, Node.js) stack.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> 
     </>
   );
 };
