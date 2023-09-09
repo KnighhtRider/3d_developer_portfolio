@@ -18,7 +18,7 @@ import {
   meta,
   starbucks,
   tesla,
-  shopify,
+  shopify, 
   carrent,
   jobit,
   tripguide,
@@ -31,30 +31,30 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "education",
+    title: "Education",
   },
   {
-    id: "contact",
+    id: "contact", 
     title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "MERN Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Data Structures",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "OOPs Concepts",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Vercel",
     icon: creator,
   },
 ];
@@ -81,10 +81,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -104,67 +100,31 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "ARYAN INSTITUTE OF TECH.",
+    company_name: "BTech In Computer Science",
+    icon: meta,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2020 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Graduation Completed.",
+      "With 7.4 CGPA.",
+
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "JAMIA MILLIA ISLAMIA",
+    company_name: "Diploma In Computer Engineering",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2017 - July 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Diploma Completed.",
+      "With 78.4%.",
+      
     ],
   },
 ];
@@ -172,7 +132,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I hvae solved more than 450+ DSA problem on Leetcode, GFG, Pep-coding, etc.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +140,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Leetcode max rating - 1250+ and 3 badges.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +148,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Subject Matter Expert in Computer Science on chegg and solved more than 400+ problems.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,67 +158,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "INSTAGRAM CLONE",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Instagram clone that allows 1000+ users to share photos with other users and user can create post, like, comment, check others profiles.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongo",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/KnighhtRider/instagram-clone",
   },
   {
-    name: "Job IT",
+    name: "MOVIES APP",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A movies app allows users to access all the trending movies and users can add their favourite movies and sorting on the basis of rating.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://movie-nine-rho.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "CAMERA APP",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Camera App is used to click and record memories with the help of API including features download and delete the media from Gallery page.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://camera-app-knighhtrider.vercel.app/",
   },
 ];
 
