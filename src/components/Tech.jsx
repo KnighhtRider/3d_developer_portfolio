@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const Tech = () => {
 
-  // const icons = Object.values(technologies).map((technology) => technology.icon);
+  const icons = Object.values(technologies).map((technology) => technology.icon);
 
   return (
     <>
@@ -20,7 +20,7 @@ const Tech = () => {
         </h2>
       </motion.div>
       <div className='w-full h-[75vh] mx-auto'>
-            
+            <BallCanvas icons={icons} />
       </div>
     </>
   );
